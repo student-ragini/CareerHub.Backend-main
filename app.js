@@ -34,6 +34,18 @@ app.use("/api/v1/user", userRouter);
 app.use("/api/v1/application", applicationRouter);
 app.use("/api/v1/job", jobRouter);
 
+app.get("/", (req, res) => {
+  res.send("Backend Working");
+});
+
+app.get("/api/v1/job", (req, res) => {
+  res.send("Job Route Working");
+});
+
+app.get("/api/v1/user", (req, res) => {
+  res.send("User Route Working");
+});
+
 dbConnection();
 
 app.use(errorMiddleware);
