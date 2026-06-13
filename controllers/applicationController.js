@@ -121,8 +121,8 @@ export const postApplication = catchAsyncError(async (req, res, next) => {
     cloudinaryResponse = await cloudinary.v2.uploader.upload(
       resume.tempFilePath,
       {
-        resource_type: "raw",
-        format: "pdf",
+        resource_type: "auto",
+        
       }
     );
 
