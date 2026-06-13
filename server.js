@@ -9,6 +9,7 @@ cloudinary.v2.config({
 console.log("Cloud Name:", process.env.CLOUDINARY_CLIENT_NAME);
 console.log("API Key:", process.env.CLOUDINARY_CLIENT_API);
 console.log("API Secret:", process.env.CLOUDINARY_CLIENT_SECRET ? "FOUND" : "NOT FOUND");
+console.log("Secret Length:",process.env.CLOUDINARY_CLIENT_SECRET?.length);
 
 
 app.listen(process.env.PORT, ()=>{
