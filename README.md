@@ -57,9 +57,7 @@ COOKIE_EXPIRE=7
 CLOUDINARY_CLIENT_NAME=cloudinary_name
 CLOUDINARY_CLIENT_API=cloudinary_api
 CLOUDINARY_CLIENT_SECRET=cloudinary_secret
-FRONTEND_URL=frontend_url
 
 
 ## Author
-
 Ragini Kumari
